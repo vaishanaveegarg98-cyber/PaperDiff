@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python virtual environment
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code workspace
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
